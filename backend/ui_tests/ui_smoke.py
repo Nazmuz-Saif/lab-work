@@ -1,8 +1,3 @@
-"""Browser (Selenium) smoke test. Run with both servers up:
-   backend:  python manage.py runserver
-   frontend: npm run dev
-   then:     python -m unittest ui_tests.ui_smoke -v
-"""
 import unittest
 
 from selenium import webdriver
